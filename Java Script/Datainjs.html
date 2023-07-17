@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const, let, var
+
+        let tmp="Manojkumar"
+        document.write(typeof(tmp)+"<b>"+tmp)
+        var varOne="Razak Mohamed S"
+        varOne+='hahul Hameed'
+
+        document.write(typeof(varOne)+" <b>"+varOne+"</b>")
+
+        const varTwo=34
+        //varTwo+=10
+        document.write("<br/>"+typeof(varTwo)+" "+varTwo)
+
+        let varThree=7.4
+        varThree*=4
+        document.write("<br/>"+typeof(varThree)+" "+varThree)
+
+        let varFour=true
+        document.write("<br/>"+typeof(varFour)+" "+varFour)
+
+        let varFive=[2,4,78,12,'Gopi',false]
+        document.write("<br/>"+typeof(varFive)+" "+varFive)
+
+        let varSix=Array([3,'Zealous'])
+        document.write("<br/>"+typeof(varSix)+" "+varSix)
+
+        let varSeven={"myName":"Razak Mohamed","pin":636001,"exp":9.5}
+        document.write("<br/>"+typeof(varSeven)+" "+varSeven)
+
+        let var8=()=>{
+            alert("Let fat arrow function")
+        }
+
+        const var9=()=>{
+            alert("Const fat arrow function")
+        }
+
+        var var10=()=>{
+            alert("Var fat arrow fubnction")
+        }
+
+        document.write("<br/>"+typeof(var8)+" "+typeof(var9)+" "+typeof(var10))
+
+        var8()
+        var9()
+        var10()
+    </script>
+</body>
+</html>

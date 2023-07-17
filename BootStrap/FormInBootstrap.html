@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container mt-3">
+         <h1 class="text-center text-secondary">Zealous Joining form</h1>
+    <div class="row justify-content-center ">
+        <form class="mt-3 col-lg-6 col-md-8 col-sm-12 shadow-lg bg-info needs-validation">
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            <div class="row">
+                <div class="col">
+                    <label for="username">Enter your name</label>
+                    <input type="text" name="username" class="form-control" />
+                    <div class="valid-feedback">
+                        Please GOOD NAME
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="username">Enter joining date</label>
+                    <input type="date" name="username" class="form-control" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Enter your Address</label>
+                <textarea class="form-control"></textarea>
+            </div>
+            <div class="form-group ">
+                <label> Enter your contact</label>
+                <input type="tel" placeholder="number please" class="form-control" >
+            </div>
+            <div class="form-group">
+                <label>Enter your Password</label>
+                <input class="form-control" type="password" />
+            </div>
+            <div class="form-group">
+                <label>Select your coding Language</label>
+                <select class="form-select">
+                    <option selected hidden>Select any one</option>
+                    <option class="bg-warning">Java</option>
+                    <option class="bg-warning">Python</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Default file input example</label>
+                <input class="form-control" type="file" >
+              </div>
+            <div class="row justify-content-center">
+                <label class="col">Gender</label>
+                <div class="col-5">
+                    <input class="form-check-input bg-success " type="radio" name="gender" value="Male">Male
+                
+                <input class="form-check-input  ms-3 bg-danger" type="radio" name="gender" value="Female">Female
+           
+                </div>
+                 </div>
+             <div class="mt-2 row justify-content-around">
+                    <button class="col-4 btn btn-outline-primary" type="submit"><i class="bi bi-people-fill"></i>Enroll</button>
+                    <button class="col-4 btn btn-outline-dark" type="reset"><i class="bi bi-x-square-fill"></i>Cancel</button>
+                </div>
+
+        </form>
+    </div>
+    </div>
+</body>
+</html>

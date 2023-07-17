@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function hello()
+        {
+            var tmp=document.getElementsByTagName('li')[2];
+            tmp.style.color='pink';
+            // let tmp=document.getElementById('base');
+            // tmp.style.color='yellow';
+            // tmp.style.textTransform='uppercase';
+            // tmp.style.borderStyle='double';
+        }
+    </script>
+</head>
+<body>
+    <h2>Function Creation</h2>
+    <ol onmouseenter="hello()">Dynamic Web Applications</ol>
+    <li id="base">React</li>
+    <li>Angular</li>
+    <li>Vue</li>
+    <li>Spring</li>
+    <li>Hibernate</li>
+    
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array in Basic</title>
+</head>
+<body>
+    <script>
+        let basic=["manojkumar",'1'];
+        
+        let arrayvalues=new Array();
+        arrayvalues.push("Manojkumar");
+        arrayvalues.push(8.9);
+        arrayvalues.push(false);
+        
+        arrayvalues.push('A');
+        arrayvalues.push(97893558030);
+        
+        //  document.writeln("<br>"+"<b>"+basic+"</b>")
+
+
+        // arrayvalues.pop()
+
+        // function printvalue(data)
+        // {
+        //     alert(data)
+        // }
+
+        // arrayvalues.map(printvalue)
+        // document.writeln("<br>"+"<b>"+arrayvalues+"</b>")
+
+        // for( i=0;i<arrayvalues.length;i++)
+        // {
+            
+        //     alert(arrayvalues[i])
+        // }
+
+        // let runtime=prompt("Tell us which position you want delete")
+        // arrayvalues=arrayvalues.filter((data,pos)=>
+        // {
+        //     return pos!==runtime
+        // })
+
+        
+        let any=prompt("Tell us which data you want delete")
+        arrayvalues=arrayvalues.filter((data,pos)=>
+        {
+            return data!==any
+        })
+        arrayvalues.map((data)=>
+        {
+            document.writeln(data+"<br>")
+        })
+            
+    </script>
+</body>
+</html

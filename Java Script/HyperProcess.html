@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <script>
+        window.onload=tech
+        window.onclick=tick
+        window.ondrag=tach
+
+        function tach()
+        {
+            document.writeln("Sorry for unvisible")
+        }
+
+        function tick()
+        {
+            alert("Thank you for  visit my page")
+        }
+        function tech()
+        {
+            const t=document.getElementById("fat")
+            t.style.backgroundColor='black'
+            t.style.color='white'
+            const t1=document.getElementsByName('bodys')[0];
+            t1.style.backgroundColor="seagreen"
+
+        }
+    </script>
+</head>
+<body name="bodys">
+    <h1 id="fat">Basic Functions and Fat arrow function</h1>
+    <ol type="a">
+        <li>Chennai</li>
+        <li >Namakkal</li>
+        <li>Erode</li>
+        <li >Salem</li>
+    </ol>
+</body>
+</html>

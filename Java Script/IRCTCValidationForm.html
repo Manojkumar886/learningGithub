@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./IRCTCValidation.js"></script>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">IRCTC ADDRESS</h2>
+    <form name="irctc" onsubmit="return Active()">
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td><input type="text" name="fno" placeholder="Flat/Door/BlockNO"/>
+                        <br><span id="Fdetails"></span></td>
+                    <td><input type="text" name="Svalue" placeholder="Street/Lane Value"><br><span id="sdetails"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="state1" placeholder="Statename" ><span id="state"></span></td>
+                    <td><input type="text"name="pin1" placeholder="Pincode"><br><span id="pin"></span></td>
+                </tr>
+                <tr align="center">
+                    <td><select id="city" name="city">
+                        <option selected hidden>Selected Your CIty</option>
+                        <option>Namakkal</option>
+                        <option>Salem</option>
+                        <option>Erode</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="email1" placeholder="Email id" /><br><span id="edetails"></span></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Register"></td>
+                    <td><input type="reset" value="Cancel"></td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </form>
+    
+</body>
+</html>
